@@ -1,0 +1,31 @@
+
+TASK 6.3: INSIGHTS SUMMARY
+==========================
+
+1. OUTLIER PREVALENCE
+   - What percentage are outliers? 2.72%
+   - Count: 4 outliers out of 147 profitable trades.
+
+2. PnL COMPARISON
+   - Average Normal PnL: 34.45 points
+   - Average Outlier PnL: 353.29 points
+   - Impact: Outliers generate 10.3x more profit per trade.
+
+3. REGIME PATTERNS
+   - Outlier Dominant Regime: 1 (+1=Up, -1=Down)
+   - Normal Dominant Regime: 1
+   - Insight: Do outliers happen in the same trend direction as normal trades?
+
+4. TIME-OF-DAY PATTERNS
+   - (See outlier_time_distribution.png)
+   - Average Entry Hour (Outliers): 11.5
+   - Check if outliers cluster around Market Open (9-10 AM) or Close.
+
+5. IV CHARACTERISTICS
+   - Avg IV (Outliers): 2.78
+   - Avg IV (Normal): 2.97
+   - Insight: Higher IV usually implies higher premiums and potential for bigger moves.
+
+6. DISTINGUISHING FEATURES (Correlation Analysis)
+   - Duration: Correlation with PnL = 0.15
+   - EMA Gap: Correlation with PnL = 0.28

@@ -1,0 +1,9 @@
+# Ignore huge data files
+data/
+*.csv
+
+# Ignore Python system files
+__pycache__/
+venv/
+.env
+.vscode/

@@ -1,0 +1,4 @@
+   Strategy  Total PnL  Win Rate %  Avg PnL
+0  Baseline    20063.9       26.16   116.65
+1   XGBoost      108.9       31.58     5.73
+2      LSTM      342.7      100.00   342.70
